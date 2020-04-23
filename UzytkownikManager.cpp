@@ -64,3 +64,8 @@ bool UzytkownikManager::czyIstniejeLogin(string login)
     }
  }
 
+ void UzytkownikManager::wczytajUzytkownikowZPliku()
+{
+    uzytkownicy = PlikZUzytkownikami.wczytajUzytkownikowZPliku ();
+}
+
