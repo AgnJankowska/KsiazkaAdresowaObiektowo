@@ -7,6 +7,7 @@
 #include <sstream>
 #include "Uzytkownik.h"
 #include "PlikZUzytkownikami.h"
+#include "MetodyPomocnicze.h"
 using namespace std;
 
 class UzytkownikManager
@@ -19,10 +20,17 @@ class UzytkownikManager
     bool czyIstniejeLogin(string login);
     PlikZUzytkownikami plikZUzytkownikami;
 
+
 public:
     UzytkownikManager (string nazwaPlikuZUzytkownikami) : plikZUzytkownikami (nazwaPlikuZUzytkownikami) {};
     void rejestracjaUzytkownika();
+    int logowanieUzytkownika();
     void wypiszWszystkichUzytkownikow();
     void wczytajUzytkownikowZPliku();
+
+    void ustawIdZalogowanegoUzytkownika (int idUstawione);
+    int pobierzIdZalogowanegoUzytkownika();
+
+
 };
 #endif
