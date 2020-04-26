@@ -56,7 +56,7 @@ bool UzytkownikManager::czyIstniejeLogin(string login)
 
  void UzytkownikManager::wypiszWszystkichUzytkownikow()
  {
-     for (int i=0; i < uzytkownicy.size(); i++)
+    for (int i=0; i < uzytkownicy.size(); i++)
     {
         cout << uzytkownicy[i].pobierzId() << endl;
         cout << uzytkownicy[i].pobierzLogin() << endl;
@@ -111,6 +111,29 @@ void UzytkownikManager::ustawIdZalogowanegoUzytkownika (int idUstawione)
 int UzytkownikManager::pobierzIdZalogowanegoUzytkownika()
 {
     return idZalogowanegoUzytkownika;
+}
+
+void UzytkownikManager::zmianaHaslaZalogowanegoUzytkownika()
+{
+    string noweHaslo = "";
+    cout << "Podaj nowe haslo: ";
+    noweHaslo = MetodyPomocnicze::wczytajLinie();
+
+    for (int i=0; i<uzytkownicy.size(); i++)
+    {
+        if (uzytkownicy[i].pobierzId() == idZalogowanegoUzytkownika)
+        {
+            uzytkownicy[i].ustawHaslo(noweHaslo);
+            cout << "Haslo zostalo zmienione." << endl << endl;
+            system("pause");
+        }
+    }
+    zapiszWszystkichUzytkownikowDoPliku();
+}
+
+void UzytkownikManager::zapiszWszystkichUzytkownikowDoPliku()
+{
+    plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
 
 

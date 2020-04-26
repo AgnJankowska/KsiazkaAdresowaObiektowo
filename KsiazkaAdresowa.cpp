@@ -15,7 +15,7 @@ void KsiazkaAdresowa::wypiszWszystkichUzytkownikow ()
     uzytkownikManager.wypiszWszystkichUzytkownikow();
 }
 
-//int KsiazkaAdresowa::pobierzIdZalogowanegoUzytkownika ()
-//{
-//    uzytkownikManager.pobierzIdZalogowanegoUzytkownika();
-//}
+void KsiazkaAdresowa::zmianaHaslaZalogowanegoUzytkownika ()
+{
+    uzytkownikManager.zmianaHaslaZalogowanegoUzytkownika();
+}

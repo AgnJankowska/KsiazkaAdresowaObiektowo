@@ -20,7 +20,6 @@ class UzytkownikManager
     bool czyIstniejeLogin(string login);
     PlikZUzytkownikami plikZUzytkownikami;
 
-
 public:
     UzytkownikManager (string nazwaPlikuZUzytkownikami) : plikZUzytkownikami (nazwaPlikuZUzytkownikami) {};
     void rejestracjaUzytkownika();
@@ -28,8 +27,11 @@ public:
     void wypiszWszystkichUzytkownikow();
     void wczytajUzytkownikowZPliku();
 
-    void ustawIdZalogowanegoUzytkownika (int idUstawione);
-    int pobierzIdZalogowanegoUzytkownika();
+    void ustawIdZalogowanegoUzytkownika (int idUstawione); //setter
+    int pobierzIdZalogowanegoUzytkownika(); //getter
+
+    void zmianaHaslaZalogowanegoUzytkownika();
+    void zapiszWszystkichUzytkownikowDoPliku();
 
 
 };
