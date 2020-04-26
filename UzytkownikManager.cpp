@@ -136,4 +136,12 @@ void UzytkownikManager::zapiszWszystkichUzytkownikowDoPliku()
     plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
 
+void UzytkownikManager::wylogowanieUzytkownika()
+{
+    cout << pobierzIdZalogowanegoUzytkownika();
+    ustawIdZalogowanegoUzytkownika(0);
+    cout << pobierzIdZalogowanegoUzytkownika();
+}
+
+
 

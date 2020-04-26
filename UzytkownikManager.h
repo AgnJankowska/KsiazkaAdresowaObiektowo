@@ -32,7 +32,7 @@ public:
 
     void zmianaHaslaZalogowanegoUzytkownika();
     void zapiszWszystkichUzytkownikowDoPliku();
-
+    void wylogowanieUzytkownika();
 
 };
 #endif
