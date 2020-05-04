@@ -1,0 +1,166 @@
+# depslib dependency file v1.0
+1446671344 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\main.cpp
+	<iostream>
+
+1588260700 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1587308182 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1588260699 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\calosc.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1588260699 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\ksiazkaadresowa.h
+	<iostream>
+	"UzytkownikManager.h"
+	"AdresatManager.h"
+	"MetodyPomocnicze.h"
+
+1588258423 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\uzytkownik.h
+	<iostream>
+
+1588260719 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\uzytkownikmanager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+	"MetodyPomocnicze.h"
+
+1588258309 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1588254157 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<algorithm>
+
+1588252474 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1588244284 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1588260718 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\uzytkownikmanager.cpp
+	"UzytkownikManager.h"
+
+1587908068 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\adresat.cpp
+	"Adresat.h"
+
+1588258316 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\adresat.h
+	<iostream>
+
+1588256444 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\adresatmanager.cpp
+	"AdresatManager.h"
+
+1588261172 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\adresatmanager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+
+1588261172 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+
+1588256444 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\roboczy\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1588261172 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\adresat.cpp
+	"Adresat.h"
+
+1588258316 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\adresat.h
+	<iostream>
+
+1588261172 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\adresatmanager.cpp
+	"AdresatManager.h"
+
+1588261172 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\adresatmanager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+
+1588261172 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+
+1588254157 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<algorithm>
+
+1588260699 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\calosc.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1588269012 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\ksiazkaadresowa.h
+	<iostream>
+	"UzytkownikManager.h"
+	"AdresatManager.h"
+	"MetodyPomocnicze.h"
+
+1588260719 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\uzytkownikmanager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+	"MetodyPomocnicze.h"
+
+1588258423 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\uzytkownik.h
+	<iostream>
+
+1588258309 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1588260700 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1588261172 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1588261172 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1588261172 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1588261172 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\uzytkownikmanager.cpp
+	"UzytkownikManager.h"
+
+1588583107 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+

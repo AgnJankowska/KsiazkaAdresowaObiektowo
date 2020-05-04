@@ -10,6 +10,13 @@ class Uzytkownik
     string haslo;
 
 public:
+    Uzytkownik (int id=0, string login="", string haslo="")
+    {
+        this -> id = id;  //nie przeslaniamy danych, nie trzeba zmieniac nazw w konstruktorze
+        this -> login = login;
+        this -> haslo = haslo;
+    }
+
     void ustawId (int noweId);
     void ustawLogin (string nowyLogin);
     void ustawHaslo (string noweHaslo);
