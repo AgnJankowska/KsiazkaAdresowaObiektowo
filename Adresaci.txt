@@ -1,0 +1,9 @@
+1|2|1|Dodaje|a|a|a|
+2|2|Ania|Znowu|Dodaje|a|a|
+3|1|Aga|Dodaje|a|a|a|
+4|1|Aga|Znowu|Dodaje|a|a|
+5|1|Aga|Znowu|Znowu|Dodaje|a|
+6|3|Olek|Dodaje|a|a|a|
+7|3|Olek|Znowu|Dodaje|a|a|
+8|2|Ania|Jeszcze|Raz|Dodaje|a|
+9|2|An|A|a|a|ADRES|

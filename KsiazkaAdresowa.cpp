@@ -49,6 +49,22 @@ void KsiazkaAdresowa::wyswietlWszystkichAdresatow() {
     }
 }
 
+void KsiazkaAdresowa::usunAdresata() {
+    adresatManager -> usunAdresata();
+}
+
+void KsiazkaAdresowa::edytujAdresata() {
+    adresatManager -> edytujAdresata();
+}
+
+void KsiazkaAdresowa::wyszukajAdresatowPoImieniu() {
+    adresatManager -> wyszukajAdresatowPoImieniu();
+}
+
+void KsiazkaAdresowa::wyszukajAdresatowPoNazwisku() {
+    adresatManager -> wyszukajAdresatowPoNazwisku();
+}
+
 char KsiazkaAdresowa::wybierzOpcjeZMenuGlownego() {
     char wybor;
     system("cls");
