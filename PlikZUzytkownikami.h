@@ -4,15 +4,16 @@
 #include <vector>
 #include <fstream>
 #include <cstdlib>
+
 #include "Uzytkownik.h"
 #include "MetodyPomocnicze.h"
+#include "PlikTekstowy.h"
 using namespace std;
 
-class PlikZUzytkownikami
+class PlikZUzytkownikami : public PlikTekstowy
 {
     const string NAZWA_PLIKU_Z_UZYTKOWNIKAMI;
     string zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(Uzytkownik uzytkownik);
-    bool czyPlikJestPusty(fstream &plikTekstowy);
 
 public:
     PlikZUzytkownikami (string nazwaPlikuZUzytkownikami)
