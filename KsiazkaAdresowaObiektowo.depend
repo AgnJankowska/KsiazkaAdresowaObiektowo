@@ -111,7 +111,7 @@
 	"MetodyPomocnicze.h"
 	"PlikTekstowy.h"
 
-1588686220 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\metodypomocnicze.h
+1588854917 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\metodypomocnicze.h
 	<iostream>
 	<sstream>
 	<algorithm>
@@ -139,7 +139,7 @@
 1588583788 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\uzytkownik.h
 	<iostream>
 
-1588854277 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\plikzuzytkownikami.h
+1588856950 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -166,7 +166,7 @@
 1588686220 source:c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
-1588854380 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\pliktekstowy.h
+1588856950 c:\users\a\desktop\kurs\c++\seminaria\seminarium 8 - obiektowe\obiektowe\pliktekstowy.h
 	<iostream>
 	<vector>
 	<fstream>

@@ -10,9 +10,8 @@
 #include "PlikTekstowy.h"
 using namespace std;
 
-class PlikZAdresatami :public PlikTekstowy
+class PlikZAdresatami : public PlikTekstowy
 {
-    const string NAZWA_PLIKU_Z_ADRESATAMI;
     string NAZWA_TYMCZASOWEGO_PLIKU_Z_ADRESATAMI;
     int idOstatniegoAdresata;
 
@@ -28,7 +27,7 @@ class PlikZAdresatami :public PlikTekstowy
 
 public:
     PlikZAdresatami (string nazwaPlikuZAdresatami)
-        : NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
+        : PlikTekstowy(nazwaPlikuZAdresatami)
     {
         idOstatniegoAdresata = 0;
         NAZWA_TYMCZASOWEGO_PLIKU_Z_ADRESATAMI = "AdresaciTymczasowy.txt";
